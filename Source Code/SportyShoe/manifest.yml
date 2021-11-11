@@ -1,0 +1,7 @@
+applications:
+    - name: shoe-spring1
+      memory: 768M
+      instances: 1
+      path: target/store-0.0.1-SNAPSHOT.jar
+      random-route: true
+      
